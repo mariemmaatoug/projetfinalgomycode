@@ -1,6 +1,17 @@
+::selection {
+  color: white;
+  background: rgb(211, 126, 28);
+}
 .navbar{
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
 }
 
 .menu-4 {
@@ -71,4 +82,166 @@
 }
 .style-4{    margin-right: 50px;}
 
+.slides{
+  margin-left: -30%;
+}
 
+.text_next_to_slide{
+  margin-left: 75%;
+  margin-right: 5%;
+  margin-top: -35%;
+  color :#c47f29;
+  
+}
+
+.text1_next_to_slide a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+  list-style-type:upper-alpha;
+}
+.text1_next_to_slide :hover{
+  color: #747474;
+}
+
+.text2_next_to_slide a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+}
+.text2_next_to_slide :hover{
+  color: #747474;
+}
+.text3_next_to_slide a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+}
+.text3_next_to_slide :hover{
+  color: #747474;
+}
+.whatisbasketball{
+  background-color: #ffd699;
+  margin-top: 30%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+#What_is_basketball{
+  margin-right: 60%;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 20%;
+}
+.what_is_basketball_video{
+  margin-left: 50%;
+  margin-top: -50%;
+  padding-bottom: 5%;
+}
+.what_is_basketball_text1{
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 30px;
+  color: white;
+}
+.what_is_basketball_text2{
+  font-size: 5px;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+.Basketballrules{
+  background-color: #ffa366;
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+#Basketball_rules{
+  margin-right: 60%;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 20%;
+  
+}
+.Basketball_rules_video{
+  margin-left: 50%;
+  margin-top: -50%;
+  padding-bottom: 5%;
+}
+.Basketball_rules_text1{
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 30px;
+  color: white;
+}
+.Basketball_rules_text2{
+  font-size: 5px;
+  font: italic small-caps bold 16px/2 cursive;
+}
+.basketball_court{
+  margin-top: -100%;
+  margin-left: 50%;
+  margin-right: 15%;
+  border-radius: 20px;
+}
+
+#what_is_wnba{
+  background-color: #b89075;
+  margin-top: 45%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  
+}
+.what_is_wnba_text{
+  padding-top: 3%;
+  margin-right: 60%;
+  margin-left: 5%;
+}
+.what_is_wnba_text1{
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 30px;
+  color: white;
+}
+.what_is_wnba_text2{
+  font-size: 5px;
+  font: italic small-caps bold 16px/2 cursive;
+}
+.what_is_wnba_video{
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-top: -30%;
+  padding-bottom: 5%;
+}
+
+.button_learn_more{
+  background-color: white;
+  color:#c47f29;
+  font-family:italic 1.2em "Fira Sans", serif; 
+  cursor: pointer;
+  
+}
+.button_learn_more :hover{
+  background-color: #e67e22;
+  color:white;
+}
+
+
+#STATS {
+  font: italic 1.2em "Fira Sans", serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: 5%;
+}
+
+#STATStd, #STATS th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+#STATS tr:hover {background-color: #ddd;}
+
+#STATS th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e67e22;
+  color: white;
+}
