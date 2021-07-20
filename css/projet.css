@@ -415,28 +415,6 @@
 .img1{width:30%;}
 .img2{width:90%}
 
-
-#heart {
-  color: grey;  
-  font-size: 30px;
-}
-#heart1 {
-  color: grey;  
-  font-size: 30px;
-}#heart2 {
-  color: grey;  
-  font-size: 30px;
-}#heart3 {
-  color: grey;  
-  font-size: 30px;
-}
-
-#heart.red {
-  color: red;
-}#heart1.red {
-  color: red;
-}#heart2.red {
-  color: red;
-}#heart3.red {
-  color: red;
+#slides2{
+  margin-left: 10%;
 }
