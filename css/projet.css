@@ -418,3 +418,14 @@
 #slides2{
   margin-left: 10%;
 }
+.contenu_footer{
+  border-top: 1px solid #cea879;
+  font-size: 12px;
+  color: #bb8c2f;
+  text-align: center;
+  margin-top:10%;
+  margin-bottom: 3%;
+}
+.text1_footer{
+  margin-top: 5%;
+}
