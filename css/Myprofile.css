@@ -395,3 +395,11 @@ input {
   .hide {
 		display:none;
   }
+.signin{
+	margin-top: 100%;
+	
+}
+.quiz{
+	margin-top: -105%;
+
+}
